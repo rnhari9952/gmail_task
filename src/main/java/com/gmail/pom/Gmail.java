@@ -11,6 +11,9 @@ public class Gmail {
 	@FindBy(xpath = "//input[@type='email']")
 	private WebElement email_field;
 
+	@FindBy(xpath = "//input[@type='email']")
+	private WebElement next_btn;
+
 	public WebElement getEmail_field() {
 		return email_field;
 	}
